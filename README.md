@@ -54,5 +54,15 @@ $ git add README.md<br />
 $ git commit -m 'added progress to README.md'<br />
 $ git push<br />
 
+- learned that when wanting to pull a remote repo that you don't yet have a repo set up locally to use<br />
+$ git clone [url_of_repo.git] [whatever_you_name_your_local_repo]<br />
+- clones the rails remote repo to a local dir called rails as i didnt specify a dir<br />
+$ git clone https://github.com/rails/rails.git<br />
+
+
+
+
+
+
 
 
