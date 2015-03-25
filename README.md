@@ -13,15 +13,15 @@ $ echo '# LICENSE #' > LICENSE.md
 - Initialised the local root directory as a repo 
 $ git init
 
-- created a sub dir called db
-$ mkdir db
-- created an empty database file 
-$ touch development.sqlite3
+- created a sub dir called db<br />
+$ mkdir db<br />
+- created an empty database file<br />
+$ touch development.sqlite3<br />
 
 - added a .gitignore file
 $ touch .gitignore
 - added the db file to .gitignore
-# ignore all db files with the .sqlite3 file extension
+
 db/*.sqlite3
 
 - added the files for staging 
