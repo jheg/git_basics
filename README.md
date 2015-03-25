@@ -49,5 +49,10 @@ $ git diff master origin/master
 - pulled any changes from remote into my local repo (merged)
 $ git pull
 
+- made changes locally, added, committed and pushed to remote repo 
+$ git add README.md
+$ git commit -m 'added progress to README.md'
+$ git push
+
 
 
