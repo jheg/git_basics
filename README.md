@@ -32,10 +32,10 @@ $ git commit -m 'committing initial project files'<br />
 - Viewed the commit log file<br />
 $ git log<br />
 
- - Viewed the current git status of my repo<br />
- $ git status (git s for short if you have written the alias in ~/.gitconfig:<br />
- [alias]<br />
-  s = status<br />
+- Viewed the current git status of my repo<br />
+$ git status (git s for short if you have written the alias in ~/.gitconfig:<br />
+[alias]<br />
+s = status<br />
 
 - Created a remote repo on github and then linked it to my local repo<br />
 $ git remote add origin [repo_url.git]<br />
