@@ -114,7 +114,7 @@ $ git merge add_headline_to_readme<br />
 $ git add readme.md<br />
 $ git commit -m 'updated readme'<br />
 $ git push<br />
-- deleted the add_headline_to_readme branch locally and remotely
+- deleted the add_headline_to_readme branch locally and remotely<br />
 $ git branch -d add_headline_to_readme<br />
 $ git push origin --delete add_headline_to_readme<br />
 
