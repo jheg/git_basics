@@ -109,7 +109,7 @@ $ git merge add_headline_to_readme<br />
 
 <p>at this point the local branch master says something like 'Your branch is ahead of origin/master by 2 commits'</p>
 
-
+<hr>
 <footer>because it's so painfull not knowing</footer>
 
 
