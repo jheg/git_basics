@@ -70,10 +70,34 @@ $ git checkout master<br />
 - view all branches locally<br />
 $ git branch<br />
 
+- push new branch to remote repo<br />
+$ git push origin feature_x<br />
+
 - delete a branch LOCALLY<br />
 $ git branch -d feature_x<br />
 - delete a branch on REMOTE<br />
 $ git push origin --delete feature_x<br />
+
+<h2>Merge a newly created branch back into master when both have changed since the branch</h2>
+
+- create a branch<br />
+$ git checkout -b add_headline_to_readme<br />
+
+- added headline to readme.md file in new branch and committed and pushed to remote<br />
+$ git s<br />
+$ git add README.md<br />
+$ git commit -m 'added headline to readme.md'<br />
+$ git push origin add_headline_to_readme<br />
+
+- switched back to master branch<br />
+$ git checkout master<br />
+
+- added footer text to readme.md in master and committed and pushed to remote repo<br />
+$ git add README.md<br />
+$ commit -m 'added footer text to readme.md'<br />
+$ git push<br />
+
+
 
 
 
