@@ -16,7 +16,7 @@ $ git init<br />
 - created a sub dir called db<br />
 $ mkdir db<br />
 - created an empty database file<br />
-$ touch development.sqlite3<br />
+$ touch development.sqlite3<br q/>
 
 - added a .gitignore file<br />
 $ touch .gitignore<br />
@@ -99,6 +99,15 @@ $ git push<br />
 
 <h2>The merge</h2>
 <p>At this point there are two branches that are slightly different and both have something the other has not. I'll merge the two into master and delete the add_headline_to_readme branch</p>
+<h3>LOCAL MERGE</h3>
+- from the master branch<br /> 
+$ git merge add_headline_to_readme<br />
+- 1. press 'i'
+- 2. enter merge message
+- 3. press 'esc'
+- 4. type ':wq' and press enter
+
+<p>at this point the local branch master says something like 'Your branch is ahead of origin/master by 2 commits'</p>
 
 
 <footer>because it's so painfull not knowing</footer>
