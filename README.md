@@ -97,6 +97,8 @@ $ git add README.md<br />
 $ commit -m 'added footer text to readme.md'<br />
 $ git push<br />
 
+<h2>The merge</h2>
+<p>At this point there are two branches that are slightly different and both have something the other has not. I'll merge the two into master and delete the add_headline_to_readme branch</p>
 
 
 <footer>because it's so painfull not knowing</footer>
