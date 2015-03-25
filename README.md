@@ -59,6 +59,25 @@ $ git clone [url_of_repo.git] [whatever_you_name_your_local_repo]<br />
 - clones the rails remote repo to a local dir called rails as i didnt specify a dir<br />
 $ git clone https://github.com/rails/rails.git<br />
 
+<h1>Branching</h1>
+
+- create and switch to new branch<br /> 
+$ git checkout -b feature_x<br />
+
+- Switch back to master<br />
+$ git checkout master<br />
+
+- view all branches locally<br />
+$ git branch<br />
+
+- delete a branch LOCALLY<br />
+$ git branch -d feature_x<br />
+- delete a branch on REMOTE<br />
+$ git push origin --delete feature_x<br />
+
+
+
+
 
 
 
