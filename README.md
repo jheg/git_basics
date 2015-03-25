@@ -123,8 +123,33 @@ $ git push origin --delete add_headline_to_readme<br />
 <p>The scenario is that I'm working on master and have made a change (I've changed the readme headline again) and a friend has done the same albeit with a different headline. I'm going to simulate this by editing the file on github and then editing the file locally on my master repo and see what happens. I'm expecting to get a merge conflict and have to manually decide which merge wins.</p>
 
 - first off i'll get my local repo upto date and in sync with remote<br />
+- next on github I edited the readme file to # MY GIT BASICS edited by friend # and commited<br />
+- I then made a similar change locally altering the title to # MY GIT BASICS edited by jheg locally # added, committed and TRIED to push but got an rejected message:<br />
+
+<p>To https://github.com/jheg/git_basics.git<br />
+ ! [rejected]        master -> master (fetch first)<br />
+error: failed to push some refs to 'https://github.com/jheg/git_basics.git'<br />
+hint: Updates were rejected because the remote contains work that you do<br />
+hint: not have locally. This is usually caused by another repository pushing<br />
+hint: to the same ref. You may want to first integrate the remote changes<br />
+hint: (e.g., 'git pull ...') before pushing again.</p>
+
+<h2>Dealing with the conlict</h2>
+- Fetch the remote<br />
+$ git fetch<br />
+- pull the remote<br />
+$ git pull<br />
+
+<p>back in my editor I now see something like this:</p>
 
 
+<p><<<<<<< HEAD<br />
+# MY GIT BASICS edited by jheg locally #<br />
+=======<br />
+# MY GIT BASICS edited by friend #<br />
+>>>>>>> 1013e80aad96485365264f8540611210c657ee52</p>
+
+<p>dealing with the conflict is just a case of deleting what I didn't want and then add/commit/push to update the branch and decide the fate of the conflicts</p>
 
 <hr>
 <footer>because it's so painfull not knowing</footer>
