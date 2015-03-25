@@ -109,6 +109,15 @@ $ git merge add_headline_to_readme<br />
 
 <p>at this point the local branch master says something like 'Your branch is ahead of origin/master by 2 commits'</p>
 
+<h3>update REMOTE</h3>
+- from the merged local master branch<br />
+$ git add readme.md<br />
+$ git commit -m 'updated readme'<br />
+$ git push<br />
+- deleted the add_headline_to_readme branch locally and remotely
+$ git branch -d add_headline_to_readme<br />
+$ git push origin --delete add_headline_to_readme<br />
+
 <hr>
 <footer>because it's so painfull not knowing</footer>
 
