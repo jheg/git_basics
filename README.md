@@ -118,6 +118,13 @@ $ git push<br />
 $ git branch -d add_headline_to_readme<br />
 $ git push origin --delete add_headline_to_readme<br />
 
+<h1>Merge conflicts</h1>
+<p>The scenario is that I'm working on master and have made a change (I've changed the readme headline again) and a friend has done the same albeit with a different headline. I'm going to simulate this by editing the file on github and then editing the file locally on my master repo and see what happens. I'm expecting to get a merge conflict and have to manually decide which merge wins.</p>
+
+- first off i'll get my local repo upto date and in sync with remote<br />
+
+
+
 <hr>
 <footer>because it's so painfull not knowing</footer>
 
