@@ -154,6 +154,8 @@ $ git pull<br />
 <hr>
 <footer>because it's so painfull not knowing</footer>
 
+Edit in GitHub
+
 
 
 
